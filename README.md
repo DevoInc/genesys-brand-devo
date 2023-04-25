@@ -6,12 +6,9 @@ This package contains the brand schemes as `json` files, required to generate
 Devo's **light** and **dark** brands.
 
 A preview of the generated tokens can be found in
-[devoinc/genesys-tokens](https://devoinc.github.io/genesys-tokens/).
+[this page](https://devoinc.github.io/genesys-brand-devo/).
 
 ## Usage
-
-To access the generated brands one just needs to import the package and access
-the `Brands` object.
 
 ```typescript
 import { dark, light } from "@devoinc/genesys-brand-devo";
