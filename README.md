@@ -1,5 +1,8 @@
 # Genesys Brand Devo
 
+![license](https://img.shields.io/github/license/devoinc/genesys-brand-devo)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devoinc/genesys-brand-devo/ci.yml)
+
 _Devo_'s main brand schemes of design tokens defined by _Genesys Design System_.
 
 This package contains the brand schemes as `json` files, required to generate
