@@ -1,0 +1,44 @@
+{
+  "name": "@devoinc/genesys-brand-devo",
+  "version": "5.4.0",
+  "author": "Devo Dev Team",
+  "license": "MIT",
+  "description": "Devo brand tokens",
+  "main": "dist/index",
+  "module": "./dist/index.esm.js",
+  "types": "dist/index.d",
+  "scripts": {
+    "clean": "rm -rf dist/light dist/dark",
+    "build": "npm run build:light && npm run build:dark",
+    "build:light": "gyt build -i schemes/light -o dist/light -m dark",
+    "build:dark": "gyt build -i schemes/dark -o dist/dark -s dark -m dark",
+    "validate": "npm run validate:light && npm run validate:dark",
+    "validate:light": "gyt validate dist/light/",
+    "validate:dark": "gyt validate dist/dark/",
+    "dist": "npm run clean && npm run build && npm run validate",
+    "release": "release-it --dry-run",
+    "release:ci": "release-it --ci"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "genesys",
+    "design",
+    "tokens",
+    "brand",
+    "devo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DevoInc/genesys-brand-devo.git"
+  },
+  "devDependencies": {
+    "@devoinc/genesys-tokens-cli": "^5.4.0",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.10.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

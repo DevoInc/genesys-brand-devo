@@ -1,0 +1,59 @@
+name: ci
+
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+
+on:
+  push:
+    branches: ['master']
+  pull_request:
+    branches: ['master']
+
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow one concurrent deployment
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+
+  dist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: dist
+          key: ${{ runner.os }}-dist-${{ env.cache-name }}-${{ github.sha }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci
+      - run: npm run dist
+
+  deploy:
+    needs: [dist]
+    if: github.ref == 'refs/heads/master'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: dist
+          key: ${{ runner.os }}-dist-${{ env.cache-name }}-${{ github.sha }}
+      - uses: actions/configure-pages@v2
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: "./dist"
+      - uses: actions/deploy-pages@v1

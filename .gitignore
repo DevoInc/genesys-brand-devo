@@ -1,0 +1,12 @@
+node_modules
+*.iml
+.idea/*
+.DS_Store
+.npmrc
+
+dist/*
+!dist/index.js
+!dist/index.d.ts
+!dist/index.esm.js
+!dist/index.html
+!dist/preview-config.json
