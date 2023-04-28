@@ -6,7 +6,7 @@ Please ensure you have read the [Code of Conduct](./CODE_OF_CONDUCT.md) before m
 
 Contributions are made by opening pull requests from a forked copy of the repo. See detailed instructions below.
 
-- Create a fork from the project on [Github](https://github.com/devoinc/genesys-tokens).
+- Create a fork from the project on [Github](https://github.com/devoinc/genesys-brand-devo).
 - Clone the fork on your local machine.
 - Add the original repository as remote `upstream`.
 - Create a new `feat/` branch from `master`.
