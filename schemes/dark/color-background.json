@@ -95,12 +95,12 @@
         "field": {
           "base": {
             "checked": {
-              "value": "{global.color.secondary.04.value}"
+              "value": "{global.color.secondary.06.value}"
             }
           },
           "inverse": {
             "checked": {
-              "value": "{global.color.secondary.04.value}"
+              "value": "{global.color.secondary.06.value}"
             }
           }
         },
