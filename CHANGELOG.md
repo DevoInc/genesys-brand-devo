@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.7.0 (2023-05-04)
+
+
+### Features
+
+* **tokens:** QUV-959 Updated tokens to get changes in scrollbar track background color ([cd977a7](https://github.com/DevoInc/genesys-brand-devo/commit/cd977a716c78c7f5429d547fb30ef5063e860c29))
+
 ### 5.6.1 (2023-05-04)
 
 
