@@ -2,6 +2,7 @@
 
 ![license](https://img.shields.io/github/license/devoinc/genesys-brand-devo)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devoinc/genesys-brand-devo/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@devoinc/genesys-brand-devo?label=%40devoinc%2Fgenesys-brand-devo)](https://www.npmjs.com/package/@devoinc/genesys-brand-devo)
 
 _Devo_'s main brand schemes of design tokens defined by _Genesys Design System_.
 
