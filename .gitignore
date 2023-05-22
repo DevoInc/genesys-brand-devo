@@ -2,7 +2,6 @@ node_modules
 *.iml
 .idea/*
 .DS_Store
-.npmrc
 
 dist/*
 !dist/index.js
