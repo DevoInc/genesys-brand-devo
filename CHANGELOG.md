@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.9.0 (2023-05-25)
+
+
+### Features
+
+* **package:** UXW-924 genesys-tokens has been updated to v5.9.0 and nvmrc file has been created. ([#4](https://github.com/DevoInc/genesys-brand-devo/issues/4)) ([ce6445e](https://github.com/DevoInc/genesys-brand-devo/commit/ce6445eaca4e374540010bdb3cb03f35446b7632))
+
 ## 5.8.0 (2023-05-22)
 
 ## 5.7.0 (2023-05-04)
