@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.10.0 (2023-06-13)
+
+
+### Features
+
+* **tokens-cli:** QUV-1042 added the alias group tokens for charts ([ca5bd18](https://github.com/DevoInc/genesys-brand-devo/commit/ca5bd18ca6932aa93e914dec688d64c7325f4e38))
+
 ### 5.9.1 (2023-06-05)
 
 ## 5.9.0 (2023-05-25)
