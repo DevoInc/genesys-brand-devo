@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.13.0 (2023-07-10)
+
+
+### Features
+
+* **tokens:** UXW-960 and UXW-931 body text color and scrollbar track tokens ([2fda956](https://github.com/DevoInc/genesys-brand-devo/commit/2fda9567d0ab0be6f43dda618d072ed3beec1184))
+
 ## 5.12.0 (2023-07-03)
 
 ## 5.11.0 (2023-06-27)
