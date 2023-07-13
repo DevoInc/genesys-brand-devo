@@ -2,6 +2,8 @@
 
 ### 5.14.1 (2023-07-13)
 
+* **tokens:** updated to the last version of genesys-tokens-cli to integrate with new brand chart token. ([cd9eeec](https://github.com/DevoInc/genesys-brand-devo/commit/cd9eeec42117aa0ec265d00e458007b4a73dfe6a))
+
 ## 5.14.0 (2023-07-11)
 
 
