@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.14.0 (2023-07-11)
+
+
+### Features
+
+* **tokens:** updated to the last version of genesys-tokens-cli to get the new tokens for BoxMessage component and its elements ([951a3c4](https://github.com/DevoInc/genesys-brand-devo/commit/951a3c4345261a5aa0b33923661f18aec58fc4e5))
+
 ## 5.13.0 (2023-07-10)
 
 
