@@ -1,0 +1,15 @@
+{
+  "brand": {
+    "charts": {
+      "color": {
+        "fill": {
+          "basic": {
+            "00": {
+              "value": "{alias.color.background.surface.secondary.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
