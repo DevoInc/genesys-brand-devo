@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.15.0 (2023-07-18)
+
+
+### Features
+
+* **tokens:** Added new brand chart color fill token and updated to the last version of genesys-tokens ([7f14aa9](https://github.com/DevoInc/genesys-brand-devo/commit/7f14aa9eaae71c07556b013be5dcb3a549e22858))
+
 ### 5.14.1 (2023-07-13)
 
 * **tokens:** updated to the last version of genesys-tokens-cli to integrate with new brand chart token. ([cd9eeec](https://github.com/DevoInc/genesys-brand-devo/commit/cd9eeec42117aa0ec265d00e458007b4a73dfe6a))
