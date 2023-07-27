@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.16.0 (2023-07-27)
+
+
+### Features
+
+* **tokens:** updated to the last version of genesys-tokens-cli to get less space between TagGroup items ([e9dccbb](https://github.com/DevoInc/genesys-brand-devo/commit/e9dccbbfb26c953f8cbeb3e8509bda4a33d46779))
+
 ## 5.15.0 (2023-07-18)
 
 
