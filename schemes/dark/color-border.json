@@ -21,7 +21,13 @@
             }
           },
           "secondary": {
+            "weak": {
+              "value": "{global.color.secondary.05.value}"
+            },
             "base": {
+              "value": "{global.color.secondary.04.value}"
+            },
+            "strong": {
               "value": "{global.color.secondary.03.value}"
             }
           }
