@@ -6,7 +6,6 @@
   "description": "Devo brand tokens",
   "main": "dist/index",
   "module": "./dist/index.esm.js",
-  "types": "dist/index.d",
   "engines": {
     "node": ">=18",
     "npm": ">=8"
@@ -37,8 +36,11 @@
     "type": "git",
     "url": "git@github.com:DevoInc/genesys-brand-devo.git"
   },
+  "peerDependencies": {
+    "@devoinc/genesys-tokens-types": "^6.0.0"
+  },
   "devDependencies": {
-    "@devoinc/genesys-tokens-cli": "^5.20.0",
+    "@devoinc/genesys-tokens-cli": "^6.0.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "release-it": "^15.10.1"
   },

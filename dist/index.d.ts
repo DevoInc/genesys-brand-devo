@@ -1,7 +1,6 @@
-import { Brand as Light } from './light/js';
-import { Brand as Dark } from './dark/js';
+import type { Brand } from "@devoinc/genesys-tokens-types";
 
-export declare const light: Light;
-export declare const dark: Dark;
+export declare const light: Brand;
+export declare const dark: Brand;
 
-export { Brand } from "./light/js"; // Light and Dark types are equivalent.
+export type { Brand };
