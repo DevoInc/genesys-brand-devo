@@ -1,5 +1,16 @@
 # Changelog
 
+## 6.0.0 (2023-08-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Typescript:** `@devoinc/genesys-tokens-types` is now required as peerDeps.
+
+### Features
+
+* **Typescript:** `@devoinc/genesys-tokens-types` is now required as peerDeps. ([c830ed8](https://github.com/DevoInc/genesys-brand-devo/commit/c830ed8f828ba1d89f23fd022f5d68831fb65273))
+
 ## 5.16.0 (2023-07-27)
 
 
