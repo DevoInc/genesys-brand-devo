@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.0.1 (2023-08-16)
+
+
+### Bug Fixes
+
+* solve error in `types` internal paths ([e89952f](https://github.com/DevoInc/genesys-brand-devo/commit/e89952f580a95193d3eb88c11c61642883a16dbc))
+
 ## 6.0.0 (2023-08-11)
 
 
