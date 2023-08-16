@@ -6,6 +6,7 @@
   "description": "Devo brand tokens",
   "main": "dist/index",
   "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
   "engines": {
     "node": ">=18",
     "npm": ">=8"
