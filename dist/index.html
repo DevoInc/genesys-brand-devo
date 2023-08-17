@@ -345,6 +345,7 @@
             <option value="js">JavaScript</option>
             <option value="scss">SCSS</option>
             <option value="css">CSS</option>
+            <option value="figma">FIGMA</option>
             <option value="json">JSON (internal)</option>
           </select>
         </div>
@@ -596,7 +597,8 @@
     const result = sizeNumber < 6 ? size : "6rem"; return ('<div class="preview preview--size" style="height:' + result + "; width:"
       + result + ';">' + (sizeNumber < 6 ? "" : "bigger") + "</div>");
   };
-  const preview = ({ path, name, value }) => {
+  const preview = (token) => {
+    const { path, name, value } = token;
     const container = (content = "") => "<td>" + content + "</td>";
     if (path.includes("color")) {
       if (path.includes("text")) {
@@ -638,7 +640,7 @@
   };
 
   const createRow = (el) => {
-    return `<tr> ${name(el._formatted)} ${rawValue(el.value)} ${preview(
+    return `<tr> ${name(el._formatted)} ${rawValue(el.highlighted || el.value)} ${preview(
       el
     )} </tr>`;
   };
@@ -1002,6 +1004,8 @@
             return { ...token, _formatted: `$${camelToKebabCase(token.name)}` };
           if (format === "css")
             return { ...token, _formatted: `--${camelToKebabCase(token.name)}` };
+          if (format === "figma")
+            return { ...token, _formatted: token.name.replaceAll("-", "/") };
           if (format === "json") return { ...token, _formatted: token.name };
         });
       },
@@ -1061,7 +1065,7 @@
           }
           return {
             ...token,
-            value: value,
+            highlighted: value,
             _formatted: name,
           }
         });
