@@ -1057,9 +1057,9 @@
           };
         }
       },
-      highlight: (_query, { regexMode, fullScreen}) => ({ query, tokens }) => {
+      highlight: (_query, { regexMode, fullScreen }) => ({ query, tokens }) => {
         if (!query) return tokens;
-        if(regexMode || fullScreen) return tokens;
+        if (regexMode || fullScreen) return tokens;
         return tokens.map(token => {
           let name = token._formatted;
           let value = token.value;
@@ -1105,6 +1105,11 @@
   // --------------------------------------------------------------------------
   // --------------------------------------------------------------------------
   // -- entrypoint ------------------------------------------------------------
+
+  // HIDDEN FEATURES
+  // - Fullscreen mode: add fullscreen=true to the url
+  // - Preview global tokens: add tier=global to the url
+
   (async () => {
     window.config = await fetchConfig();
     const rawDatasets = await fetchDatasets();
