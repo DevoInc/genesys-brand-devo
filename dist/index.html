@@ -90,6 +90,10 @@
       flex: 1 1 auto;
     }
 
+    .no-margin-top {
+      margin-top: 0;
+    }
+
 
     /* FILTER ----------------------------------------------------------------*/
 
@@ -319,16 +323,19 @@
 </head>
 
 <body>
-  <h1>
-    <!-- To be filled dinamically -->
-  </h1>
-  <p>The different token formats available in this preview
-    are generated on the fly from the internal JSON output.
-    This preview should not be used to visually validate anything other than
-    tokens in JSON format.
-  </p>
+
+  <div id="heading">
+    <h1>
+      <!-- To be filled dinamically -->
+    </h1>
+    <p>The different token formats available in this preview
+      are generated on the fly from the internal JSON output.
+      This preview should not be used to visually validate anything other than
+      tokens in JSON format.
+    </p>
+  </div>
   <div class="wrapper">
-    <div class="column wrapper__aside">
+    <div id="aside" class="column wrapper__aside">
       <div class="filter">
         <div class="field">
           <label for="searchSelector">Free search</label>
@@ -859,6 +866,7 @@
     const componentSelector = document.querySelector("#componentSelector");
     const categorySelector = document.querySelector("#categorySelector");
     const propertySelector = document.querySelector("#propertySelector");
+    const fullscreenSelector = urlParams.get("fullscreen") || 'false';
 
     // Set value of all form elements based on url params.
     searchSelector.value =
@@ -897,6 +905,13 @@
       document.getElementById("componentSelectorContainer").classList.remove('hidden');
     }
 
+    // Fullscreen - show/hide aside and heading
+    if (fullscreenSelector === 'true') {
+      document.getElementById("aside").classList.add('hidden');
+      document.getElementById("heading").classList.add('hidden');
+      // remove margin top from wrapper
+      document.querySelector(".wrapper").classList.add('no-margin-top');
+    }
     // Update options in selects
     // component
     updateAdvancedSearchOptions("component", "category", componentSelector.value, `option${dataTag('tier', tierSelector.value)}${dataTag('component', componentSelector.value)}`);
@@ -1009,7 +1024,7 @@
           if (format === "json") return { ...token, _formatted: token.name };
         });
       },
-      query: (query, regexMode) => (tokens) => {
+      query: (query, { regexMode }) => (tokens) => {
         const errMsgElement = document.querySelector('#regexErrorMsg');
         errMsgElement.classList.toggle('hidden', true);
         if (!query) return { query, tokens };
@@ -1042,8 +1057,9 @@
           };
         }
       },
-      highlight: () => ({ query, tokens }) => {
+      highlight: (_query, { regexMode, fullScreen}) => ({ query, tokens }) => {
         if (!query) return tokens;
+        if(regexMode || fullScreen) return tokens;
         return tokens.map(token => {
           let name = token._formatted;
           let value = token.value;
@@ -1076,11 +1092,12 @@
   const applyFilters = () => {
     const search = window.location.search;
     const urlParams = new URLSearchParams(search);
-    const isRegexMode = urlParams.get('regex');
+    const regexMode = urlParams.get('regex') === 'true';
+    const fullScreen = urlParams.get('fullscreen') === 'true';
     // Apply all filters from url
     window.filteredTokens = [...filtersFns.entries()].reduce(
       (acc, [filterId, filterFn]) =>
-        filterFn(urlParams.get(filterId), isRegexMode)(acc),
+        filterFn(urlParams.get(filterId), { regexMode, fullScreen })(acc),
       window.datasets
     );
   };
