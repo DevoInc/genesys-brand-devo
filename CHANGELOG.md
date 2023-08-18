@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.1.0 (2023-08-18)
+
+
+### Features
+
+* **UXW-967:** feedback strongest tokens have been created for primary and secondary brand ([d06fa5b](https://github.com/DevoInc/genesys-brand-devo/commit/d06fa5beb403ae073047887d4c2c5d5d3e861eb0))
+
 ### 6.0.1 (2023-08-16)
 
 
