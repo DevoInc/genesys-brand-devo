@@ -1,5 +1,14 @@
 {
   "brand": {
+    "badge": {
+      "color": {
+        "text": {
+          "warning": {
+            "value": "{alias.color.text.feedback.warning.inverse.value}"
+          }
+        }
+      }
+    },
     "decoratorBar": {
       "color": {
         "background": {
@@ -147,6 +156,15 @@
           },
           "info": {
             "value": "{alias.color.background.surface.blend.info.weakest.value}"
+          }
+        }
+      }
+    },
+    "tag": {
+      "color": {
+        "text": {
+          "warning": {
+            "value": "{alias.color.text.feedback.warning.inverse.value}"
           }
         }
       }
