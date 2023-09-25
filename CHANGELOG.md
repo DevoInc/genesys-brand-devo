@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.1.2 (2023-09-25)
+
+
+### Bug Fixes
+
+* solve warning color scheme error in Tag and Badge ([4d0e1c9](https://github.com/DevoInc/genesys-brand-devo/commit/4d0e1c91748c14475560d0427073879cffefc799))
+
 ### 6.1.1 (2023-08-21)
 
 ## 6.1.0 (2023-08-18)
