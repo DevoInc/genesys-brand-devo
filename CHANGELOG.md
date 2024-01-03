@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.2.0 (2024-01-03)
+
+
+### Features
+
+* **tokens:** updated to the last version of genesys-tokens-cli. ([98e5397](https://github.com/DevoInc/genesys-brand-devo/commit/98e5397d9b12133cebdd3f1ada6a304a1d7328c7))
+
 ### 6.1.2 (2023-09-25)
 
 
