@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.3.0 (2024-01-26)
+
+
+### Features
+
+* **UXW-1016:** Update genesys-cli ([107cbd5](https://github.com/DevoInc/genesys-brand-devo/commit/107cbd5a9d06433830031ad740fabf5c4f1bde1f))
+
 ## 6.2.0 (2024-01-03)
 
 
