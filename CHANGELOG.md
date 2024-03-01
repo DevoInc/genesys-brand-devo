@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.4.0 (2024-03-01)
+
+
+### Features
+
+* **UXW-1026:** Update genesys-cli & genesys-tokens-types ([33dcbb2](https://github.com/DevoInc/genesys-brand-devo/commit/33dcbb235b56fabdc2df3c313e043f1fa1beaff8))
+
 ## 6.3.0 (2024-01-26)
 
 
