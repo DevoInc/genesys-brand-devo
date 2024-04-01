@@ -52,7 +52,7 @@ jobs:
         with:
           path: dist
           key: ${{ runner.os }}-dist-${{ env.cache-name }}-${{ github.sha }}
-      - uses: actions/configure-pages@v4
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: "./dist"
