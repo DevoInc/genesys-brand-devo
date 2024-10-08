@@ -38,7 +38,7 @@
     "url": "git@github.com:DevoInc/genesys-brand-devo.git"
   },
   "peerDependencies": {
-    "@devoinc/genesys-tokens-types": "^6.4.2"
+    "@devoinc/genesys-tokens-types": "7.x.x"
   },
   "devDependencies": {
     "@devoinc/genesys-tokens-cli": "^7.0.0",
