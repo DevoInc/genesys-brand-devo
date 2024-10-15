@@ -1,5 +1,12 @@
 # Changelog
 
+## 7.2.0 (2024-10-15)
+
+
+### Features
+
+* new component tokens from updating tokens-cli ([1c3dc60](https://github.com/DevoInc/genesys-brand-devo/commit/1c3dc60bffc64523f05b58ec0180ddb75c957439))
+
 ### 7.1.1 (2024-10-14)
 
 ## 7.1.0 (2024-10-10)
