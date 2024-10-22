@@ -41,7 +41,7 @@
     "@devoinc/genesys-tokens-types": "7.x.x"
   },
   "devDependencies": {
-    "@devoinc/genesys-tokens-cli": "^7.3.0",
+    "@devoinc/genesys-tokens-cli": "^7.4.1",
     "@release-it/conventional-changelog": "^5.1.1",
     "release-it": "^15.10.1"
   },
