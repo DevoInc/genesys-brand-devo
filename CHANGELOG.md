@@ -1,5 +1,12 @@
 # Changelog
 
+### 8.0.1 (2024-10-29)
+
+
+### Bug Fixes
+
+* remove export entry ([d4b21eb](https://github.com/DevoInc/genesys-brand-devo/commit/d4b21eb0a04395457c3a0ecb63d8e9a7306aad20))
+
 ## 8.0.0 (2024-10-29)
 
 
