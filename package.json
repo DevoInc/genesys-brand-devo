@@ -13,12 +13,6 @@
   "types": "./dist/index.d.ts",
   "main": "dist/index.js",
   "module": "./dist/index.esm.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.js"
-    }
-  },
   "files": [
     "dist"
   ],
