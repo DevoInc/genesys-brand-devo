@@ -1,5 +1,16 @@
 # Changelog
 
+## 8.0.0 (2024-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* module type migration
+
+### Features
+
+* module type migration ([892e463](https://github.com/DevoInc/genesys-brand-devo/commit/892e4638e9bcf634245ef3210183d526262aac29))
+
 ## 7.4.0 (2024-10-23)
 
 
