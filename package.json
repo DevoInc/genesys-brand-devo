@@ -1,16 +1,27 @@
 {
   "name": "@devoinc/genesys-brand-devo",
   "version": "7.4.0",
-  "author": "Devo Dev Team",
-  "license": "MIT",
   "description": "Devo brand tokens",
-  "main": "dist/index",
-  "module": "./dist/index.esm.js",
+  "keywords": [
+    "genesys",
+    "design",
+    "tokens",
+    "brand",
+    "devo"
+  ],
+  "type": "module",
   "types": "./dist/index.d.ts",
-  "engines": {
-    "node": ">=18",
-    "npm": ">=8"
+  "main": "dist/index.js",
+  "module": "./dist/index.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js"
+    }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist/light dist/dark",
     "build": "npm run build:light && npm run build:dark",
@@ -23,27 +34,23 @@
     "release": "release-it --dry-run",
     "release:ci": "release-it --ci"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "genesys",
-    "design",
-    "tokens",
-    "brand",
-    "devo"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:DevoInc/genesys-brand-devo.git"
-  },
-  "peerDependencies": {
-    "@devoinc/genesys-tokens-types": "7.x.x"
-  },
   "devDependencies": {
     "@devoinc/genesys-tokens-cli": "^7.5.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "release-it": "^15.10.1"
+  },
+  "peerDependencies": {
+    "@devoinc/genesys-tokens-types": "7.x.x"
+  },
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DevoInc/genesys-brand-devo.git"
   },
   "publishConfig": {
     "access": "public"
