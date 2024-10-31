@@ -1,5 +1,12 @@
 # Changelog
 
+### 8.0.2 (2024-10-31)
+
+
+### Bug Fixes
+
+* fixed wrong format for css calc() updating tokens-cli ([862154b](https://github.com/DevoInc/genesys-brand-devo/commit/862154bfae3ece2becde38a58cef5ac0df29ad93))
+
 ### 8.0.1 (2024-10-29)
 
 
