@@ -1,0 +1,30 @@
+name: setup-node
+description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js ⚙️
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+        cache: npm
+        registry-url: https://registry.npmjs.org/
+
+    - name: Cache dependencies ⚡
+      id: cache_dependencies
+      uses: actions/cache@v4
+      with:
+        path: node_modules
+        key: node-modules-${{ hashFiles('package-lock.json') }}
+
+    - name: Cache dist ⚡
+      id: cache_dist
+      uses: actions/cache@v4
+      with:
+        path: "dist"
+        key: dist-${{ github.sha }}
+
+    - name: Install dependencies 🔧
+      shell: bash
+      if: steps.cache_dependencies.outputs.cache-hit != 'true'
+      run: npm ci
