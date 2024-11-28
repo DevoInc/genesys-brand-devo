@@ -1,5 +1,7 @@
 # Changelog
 
+## [8.0.4](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.3...8.0.4) (2024-11-28)
+
 ### 8.0.3 (2024-11-05)
 
 ### 8.0.2 (2024-10-31)
