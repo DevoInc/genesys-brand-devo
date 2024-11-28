@@ -9,41 +9,50 @@
     "brand",
     "devo"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DevoInc/genesys-brand-devo.git"
+  },
+  "license": "MIT",
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./dist/light/*": "./dist/light/*",
+    "./dist/dark/*": "./dist/dark/*"
+  },
+  "main": "dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "main": "dist/index.js",
-  "module": "./dist/index.esm.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "clean": "rm -rf dist/light dist/dark",
     "build": "npm run build:light && npm run build:dark",
-    "build:light": "gyt build -i schemes/light -o dist/light -m dark",
-    "build:dark": "gyt build -i schemes/dark -o dist/dark -s dark -m dark",
-    "validate": "npm run validate:light && npm run validate:dark",
-    "validate:light": "gyt validate dist/light/",
-    "validate:dark": "gyt validate dist/dark/",
+    "build:dark": "genesys-tokens-cli build -i schemes/dark -o dist/dark -s dark -m dark",
+    "build:light": "genesys-tokens-cli build -i schemes/light -o dist/light -m dark",
+    "clean": "rm -rf dist/light dist/dark",
     "dist": "npm run clean && npm run build && npm run validate",
     "release": "release-it --dry-run",
-    "release:ci": "release-it --ci"
+    "release:ci": "release-it --ci",
+    "validate": "npm run validate:light && npm run validate:dark",
+    "validate:dark": "genesys-tokens-cli validate dist/dark/",
+    "validate:light": "genesys-tokens-cli validate dist/light/"
   },
   "devDependencies": {
-    "@devoinc/genesys-tokens-cli": "^7.5.1",
-    "@release-it/conventional-changelog": "^5.1.1",
-    "release-it": "^15.10.1"
+    "@devoinc/genesys-tokens-cli": "^7.5.6",
+    "@release-it/conventional-changelog": "^9.0.3",
+    "release-it": "^17.10.0"
   },
   "peerDependencies": {
     "@devoinc/genesys-tokens-types": "7.x.x"
   },
-  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
-  "license": "MIT",
   "engines": {
     "node": ">=18",
     "npm": ">=8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:DevoInc/genesys-brand-devo.git"
   },
   "publishConfig": {
     "access": "public"
