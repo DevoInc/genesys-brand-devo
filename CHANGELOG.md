@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.0.5](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.4...8.0.5) (2024-11-30)
+
+### Bug Fixes
+
+* build exports entries ([093ee6b](https://github.com/DevoInc/genesys-brand-devo/commit/093ee6bc9c65acdf435eebbdf0f2af219422dbd4))
+
 ## [8.0.4](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.3...8.0.4) (2024-11-28)
 
 ### 8.0.3 (2024-11-05)
