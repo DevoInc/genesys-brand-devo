@@ -21,7 +21,7 @@ runs:
       id: cache_dist
       uses: actions/cache@v4
       with:
-        path: "dist"
+        path: dist
         key: dist-${{ github.sha }}
 
     - name: Install dependencies 🔧
