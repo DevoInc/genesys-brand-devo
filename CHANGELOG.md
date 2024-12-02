@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.1.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.7...8.1.0) (2024-12-02)
+
+### Features
+
+* new sizes for badge component updating genesys-tokens-cli ([431689b](https://github.com/DevoInc/genesys-brand-devo/commit/431689bf8b0a2ef8b934c1123957eb26f61d3c1c))
+
 ## [8.0.7](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.6...8.0.7) (2024-11-30)
 
 ## [8.0.6](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.5...8.0.6) (2024-11-30)
