@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.3.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.2.0...8.3.0) (2025-03-17)
+
+### Features
+
+* updated tp the last version of tokens-cli to get stronger text for Avatar component initials. ([4ed561f](https://github.com/DevoInc/genesys-brand-devo/commit/4ed561f95cd6cac861316a0530c1eee20977da4e))
+
 ## [8.2.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.1.1...8.2.0) (2025-03-14)
 
 ### Features
