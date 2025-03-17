@@ -1,5 +1,15 @@
 # Changelog
 
+## [8.2.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.1.1...8.2.0) (2025-03-14)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get inset the box-shadow for focused states. ([c27462a](https://github.com/DevoInc/genesys-brand-devo/commit/c27462ab009685e2ec320ee9f94652dc0ac41f94))
+
+### Bug Fixes
+
+* Aligned the package-lock. ([df1ac68](https://github.com/DevoInc/genesys-brand-devo/commit/df1ac689252672a609546b08649437b3c6fb2e6b))
+
 ## [8.1.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.1.0...8.1.1) (2024-12-02)
 
 ## [8.1.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.0.7...8.1.0) (2024-12-02)
