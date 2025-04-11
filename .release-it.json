@@ -21,5 +21,6 @@
   },
   "github": {
     "release": true
-  }
+  },
+  "npm": false
 }
