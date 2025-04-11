@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.4.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.0...8.4.0) (2025-04-11)
+
+### Features
+
+* Updated to the last version of genesys-tokes-ckli to get the same color for form control placeholders in any status. ([ee348c4](https://github.com/DevoInc/genesys-brand-devo/commit/ee348c452d345834cca69bcb1cdef0b7fb2d4b5e))
+
 ## [8.3.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.2.0...8.3.0) (2025-03-17)
 
 ### Features
