@@ -1,5 +1,7 @@
 # Changelog
 
+## [8.3.2](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.1...8.3.2) (2025-04-11)
+
 ## [8.3.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.4.0...8.3.1) (2025-04-11)
 
 ## [8.4.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.0...8.4.0) (2025-04-11)
