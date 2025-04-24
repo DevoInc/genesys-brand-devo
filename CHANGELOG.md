@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.4.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.3...8.4.1) (2025-04-24)
+
+### Features
+
+* Updated to the last version of tokens-cli to add new box-shadow tokens with no inset variant. ([7383ee5](https://github.com/DevoInc/genesys-brand-devo/commit/7383ee57f63bda64d793ce1c619ea85d3f7cc4e1))
+
 ## [8.3.3](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.2...8.3.3) (2025-04-11)
 
 ## [8.3.2](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.1...8.3.2) (2025-04-11)
