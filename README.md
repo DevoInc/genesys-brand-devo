@@ -33,4 +33,4 @@ npm ci
 npm run dist
 ```
 
-The brands are now available in the `dist/` folder.
+The brands are now available in  the `dist/` folder.
