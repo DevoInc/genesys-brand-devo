@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.5.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.4.1...8.5.0) (2025-04-26)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get one step to lower values the SwitchControl component size tokens and definition of the size values for new 'xs' variant on Tag component. ([fe84442](https://github.com/DevoInc/genesys-brand-devo/commit/fe84442210bf8f96506efd61e16bfe73a3595b44))
+
 ## [8.4.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.3.3...8.4.1) (2025-04-24)
 
 ### Features
