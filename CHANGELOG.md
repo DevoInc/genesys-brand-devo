@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.5.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.5.0...8.5.1) (2025-05-14)
+
+### Bug Fixes
+
+* Updated to the last version of genesys-tokens-cli to get the UploadFiles token change. ([74af73b](https://github.com/DevoInc/genesys-brand-devo/commit/74af73bc5d1b963bb01d934a2f601c04db489c61))
+
 ## [8.5.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.4.1...8.5.0) (2025-04-26)
 
 ### Features
