@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.6.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.6.0...8.6.1) (2025-05-23)
+
+### Bug Fixes
+
+* **AppMenu:** Updated to the last version of genesys-tokens-cli to get a fix. ([bf01b40](https://github.com/DevoInc/genesys-brand-devo/commit/bf01b404685c2d672e561f23913ebb174a11f3a9))
+
 ## [8.6.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.5.1...8.6.0) (2025-05-23)
 
 ### Features
