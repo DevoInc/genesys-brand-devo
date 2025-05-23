@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.6.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.5.1...8.6.0) (2025-05-23)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get the new AppMenu cmp tokens. ([73440c6](https://github.com/DevoInc/genesys-brand-devo/commit/73440c61a6d5364c6b995790a74b0808b65eeae3))
+
 ## [8.5.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.5.0...8.5.1) (2025-05-14)
 
 ### Bug Fixes
