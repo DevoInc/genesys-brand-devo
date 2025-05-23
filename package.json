@@ -57,7 +57,7 @@
     "validate:light": "genesys-tokens-cli validate dist/light/"
   },
   "devDependencies": {
-    "@devoinc/genesys-tokens-cli": "^7.12.1",
+    "@devoinc/genesys-tokens-cli": "^7.13.0",
     "@release-it/conventional-changelog": "^9.0.3",
     "release-it": "^17.10.0"
   },
