@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.7.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.6.1...8.7.0) (2025-05-28)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get a darker text color for neutral and quiet actions. ([0e799e3](https://github.com/DevoInc/genesys-brand-devo/commit/0e799e3b034b9d24726661bfea5da34bae7798a3))
+
 ## [8.6.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.6.0...8.6.1) (2025-05-23)
 
 ### Bug Fixes
