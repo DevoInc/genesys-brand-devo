@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.8.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.7.0...8.8.0) (2025-05-30)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to add the new 'quietBlend' button color scheme. ([b4c17b0](https://github.com/DevoInc/genesys-brand-devo/commit/b4c17b0adadb0ffd15b71c3936c1c6ad8be2ac1f))
+
 ## [8.7.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.6.1...8.7.0) (2025-05-28)
 
 ### Features
