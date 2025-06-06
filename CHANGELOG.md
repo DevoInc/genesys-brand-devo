@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.9.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.8.0...8.9.0) (2025-06-06)
+
+### Features
+
+* Updated genesys-tokens-cli to have the modified error global color to be AA accessible in dark theme. ([35f61ff](https://github.com/DevoInc/genesys-brand-devo/commit/35f61fff5e45d4cc309d072434fcb3afddd65c17))
+
 ## [8.8.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.7.0...8.8.0) (2025-05-30)
 
 ### Features
