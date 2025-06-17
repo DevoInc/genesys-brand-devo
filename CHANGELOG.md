@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.11.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.10.0...8.11.0) (2025-06-17)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get the new color for surface created color background with less contrast to be more similar to the light scheme one. ([d5d7366](https://github.com/DevoInc/genesys-brand-devo/commit/d5d7366ed5c2276f2a3021287e46ece9f74d0002))
+
 ## [8.10.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.9.0...8.10.0) (2025-06-17)
 
 ### Features
