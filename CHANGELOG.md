@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.10.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.9.0...8.10.0) (2025-06-17)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get hovered variant to the TabsItem component color text tokens. ([f8eeea7](https://github.com/DevoInc/genesys-brand-devo/commit/f8eeea789d1e8150c5e655555f1bc289e4400d47))
+
 ## [8.9.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.8.0...8.9.0) (2025-06-06)
 
 ### Features
