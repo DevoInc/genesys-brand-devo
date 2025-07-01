@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.11.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.11.0...8.11.1) (2025-07-01)
+
+### Bug Fixes
+
+* Updated to the last version of genesys-tokens-cli to get closed a calc() expression. ([7731689](https://github.com/DevoInc/genesys-brand-devo/commit/7731689d54d5798b2d9378be02ad98316b9417c3))
+
 ## [8.11.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.10.0...8.11.0) (2025-06-17)
 
 ### Features
