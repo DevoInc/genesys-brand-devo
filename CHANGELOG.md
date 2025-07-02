@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.12.0](https://github.com/DevoInc/genesys-brand-devo/compare/8.11.1...8.12.0) (2025-07-02)
+
+### Features
+
+* Updated to the last version of genesys-tokens-cli to get new bg mode for ContentSwitcher. ([d6cffe3](https://github.com/DevoInc/genesys-brand-devo/commit/d6cffe3aaf0dd233a2584a830e4320785f174a0f))
+
 ## [8.11.1](https://github.com/DevoInc/genesys-brand-devo/compare/8.11.0...8.11.1) (2025-07-01)
 
 ### Bug Fixes
